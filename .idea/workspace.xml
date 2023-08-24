@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c16207-bd72-4fb9-b083-fd7c0b5f8ed6" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="16c16207-bd72-4fb9-b083-fd7c0b5f8ed6" name="Changes" comment="Rearrange folder structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +59,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TDD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.MainTest" />
       </list>
@@ -91,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692892097920</updated>
-      <workItem from="1692892098865" duration="2162000" />
+      <workItem from="1692892098865" duration="4846000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -101,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692893602166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rearrange folder structure">
+      <option name="closed" value="true" />
+      <created>1692894608560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692894608560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Rearrange folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearrange folder structure" />
   </component>
 </project>
